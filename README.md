@@ -7,6 +7,9 @@ This analysis examines trends in student debt in Canada from 2000 to 2020. It lo
 You can download the required CSV data files and metadata from the Open Government, Government of Canada website using this link:
 [Download Dataset](https://open.canada.ca/data/en/dataset/c75d7a11-ecce-40d6-939a-ba61247bf98a/resource/0b5bfeb0-3e53-4941-a488-2956ec193dfd)
 
+There are two files in the zip — one of which is has the suffix "MetaData". We do not require the metadata for this analysis.
+Note: For this project, the file "37100036.csv" was renamed to "student_debt_canada.csv".
+
 ## File Structure
 
 The repository is set up as follows:
@@ -20,8 +23,8 @@ The repository is set up as follows:
 
 ## Statement on LLM usage
 
-All uses of LLM are documented in `other/llm/llm_usage.txt`. There are significant usages of ChatGPT, the key purposes being:
-1) To help format this R
+All uses of LLM are documented in `other/llm/llm_usage.txt`. The main purposes of using LLMs are:
+1) To help format this Readme.md
 2) To aid in writing and formatting code
 3) To suggest a title for this project
 4) To write parts of the paper more efficiently
