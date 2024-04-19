@@ -20,8 +20,8 @@ The repository is set up as follows:
 
 ## Statement on LLM usage
 
-All uses of LLM are documented in `other/llm/llm_usage.txt`. The main purposes of using LLMs are:
-1) To help format this Readme.md
+All uses of LLM are documented in `other/llm/llm_usage.txt`. There are significant usages of ChatGPT, the key purposes being:
+1) To help format this R
 2) To aid in writing and formatting code
 3) To suggest a title for this project
 4) To write parts of the paper more efficiently
